@@ -1,0 +1,59 @@
+@media (max-width: 1024px) {
+  /* about section */
+}
+@media (max-width: 991px) {
+  /* custom classes */
+
+  /* navbar brand */
+  #header {
+    text-align: center;
+    background: var(--white-color);
+  }
+  #header .nav-link {
+    line-height: 1.875rem;
+  }
+
+  /* banner design */
+  #home {
+    padding: 9.375rem 0;
+  }
+
+  /* carousel design */
+  .reviews-section .carousel-item .carousel-caption p {
+    padding: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  /* custom css */
+  h1 {
+    font-size: 2.8rem;
+  }
+  h2 {
+    font-size: 2rem;
+    line-height: 2.0625rem;
+  }
+
+  /* top banner */
+  #home {
+    padding: 10.875rem 0 9.375rem;
+  }
+
+  /* story section */
+  .storySection {
+    padding: 3rem 0;
+  }
+  /* Carousel Design */
+
+  /* Newsletter Form */
+  .newsletter-form {
+    width: 75%;
+  }
+  .newsletter-form .btn1 {
+    width: 100%;
+    margin-top: 1rem;
+  }
+}
+@media (max-width: 330px) {
+  /* Carousel Design */
+}
